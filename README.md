@@ -3,7 +3,7 @@
 
 Zongliang Wu, Siming Zheng, Peng-Tao Jiang, and Xin Yuan.
 
-Code and data will be released.
+Code will be released by Dec. 2025.
 
 <hr />
 **Abstract:** Pre-trained diffusion models have shown great potential in real-world image super-resolution (Real-ISR) tasks by enabling high-resolution reconstructions. While one-step diffusion (OSD) methods significantly improve efficiency compared to traditional multi-step approaches, they still have limitations in balancing fidelity and realism across diverse scenarios. 

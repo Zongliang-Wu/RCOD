@@ -84,3 +84,6 @@ ai_note.md
 local_scripts/
 */local_scripts/
 scripts/local/
+
+# Antigravity agent configuration
+.agents/

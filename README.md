@@ -21,14 +21,14 @@ While one-step diffusion (OSD) methods significantly improve efficiency in real-
 2. **Degradation-Aware Sampling (DAS)**: Aligns distillation regularization with the grouping scheme.
 3. **Visual Prompt Injection Module (VPIM)**: Replaces conventional text prompts with degradation-aware visual tokens for enhanced restoration and semantic accuracy.
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://zongliang-wu.github.io/RCOD-SR/static/images/SR/diff_time_step_principle_01.png" alt="RCOD Latent Domain Grouping Overview" width="92%">
   <p align="left"><em><b>Figure 1:</b> (a) Vanilla One-Step Diffusion (OSD) learns an "average" degradation, limiting generation flexibility. (b) Proposed RCOD uses Latent Domain Grouping to adaptively associate timesteps with latent degradation degrees, allowing explicit fidelity-realism trade-off control during inference.</em></p>
-</div>
+</div> -->
 
 <div align="center">
   <img src="https://zongliang-wu.github.io/RCOD-SR/static/images/SR/fig1.png" alt="Fidelity Realism Tradeoff" width="92%">
-  <p align="left"><em><b>Figure 2:</b> RCOD provides explicit control to output images tailored for high Fidelity (Ours-Fid.), Neutral Realism (Ours-Neu.), or high Realism (Ours-Real.).</em></p>
+  <p align="left"><em> RCOD provides explicit control to output images tailored for high Fidelity (Ours-Fid.), Neutral Realism (Ours-Neu.), or high Realism (Ours-Real.).</em></p>
 </div>
 
 ---

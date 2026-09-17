@@ -53,7 +53,9 @@ pip install -r requirements.txt
 
 ## 📦 Checkpoints & Weights
 
-You can prepare pretrained model weights using our download helper script:
+> 🔗 All trained checkpoints are hosted on Hugging Face: [**`Zongliang-Wu/RCOD`**](https://huggingface.co/Zongliang-Wu/RCOD)
+
+You can download all pretrained model weights automatically using our download helper script:
 
 ```bash
 bash scripts/download_weights.sh

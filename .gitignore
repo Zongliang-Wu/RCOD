@@ -79,6 +79,7 @@ ai_note.md
 
 # Local server scripts and absolute path configurations (private)
 *local*.sh
+*local*.py
 *.local.*
 local_scripts/
 */local_scripts/

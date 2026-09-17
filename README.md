@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 ## 📦 Checkpoints & Weights
 
-> 🔗 All trained checkpoints are hosted on Hugging Face: [**`Zongliang-Wu/RCOD`**](https://huggingface.co/Zongliang-Wu/RCOD)
+> 🔗 Trained RCOD checkpoints are hosted on Hugging Face: [**`MMQDD/RCOD`**](https://huggingface.co/MMQDD/RCOD)
 
 You can download all pretrained model weights automatically using our download helper script:
 
@@ -63,15 +63,19 @@ bash scripts/download_weights.sh
 
 Or download manually into the `weights/` directory:
 
+### 1. RCOD Trained Models (from [Hugging Face](https://huggingface.co/MMQDD/RCOD))
 | Model | Base | Checkpoint File | Description |
 | :--- | :--- | :--- | :--- |
-| **RCOD_O** | SD 2.1 base | `weights/rcod_o.pkl` | Unified denoiser (Fid / Neu / Real) |
-| **RCOD_S** | SD-Turbo | `weights/rcod_s.pkl` | Unified denoiser (Fid / Neu / Real) |
+| **RCOD_O** | SD 2.1 base | `weights/rcod_o.pkl` | Unified denoiser (Fidelity / Neutral / Realism) |
+| **RCOD_S** | SD-Turbo | `weights/rcod_s.pkl` | Unified denoiser (Fidelity / Neutral / Realism) |
 | **RCOD_S MEM** | MLP | `weights/rcod_s_mem.pkl` | Metric Estimation Module for Adaptive inference |
 
-Pretrained base models:
-- [SD 2.1-base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base) (for RCOD_O)
-- [SD-Turbo](https://huggingface.co/stabilityai/sd-turbo) (for RCOD_S)
+### 2. Base & Auxiliary Models
+- **SD 2.1-base**: [stabilityai/stable-diffusion-2-1-base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base) (for RCOD_O)
+- **SD-Turbo**: [stabilityai/sd-turbo](https://huggingface.co/stabilityai/sd-turbo) (for RCOD_S)
+- **de_net.pth**: Degradation estimator from [S3Diff](https://github.com/ArcticHare105/S3Diff) (included in `RCOD_S/assets/mm-realsr/de_net.pth`)
+- **DAPE.pth**: Domain-Adaptive Prior Extractor from [OSEDiff / DAPE](https://github.com/cswry/OSEDiff) ([Google Drive](https://drive.google.com/file/d/1KIV6VewwO2eDC9g4Gcvgm-a0LDI7Lmwm/view?usp=drive_link))
+- **ram_swin_large_14m.pth**: RAM feature extractor from [Recognize Anything](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth)
 
 ---
 

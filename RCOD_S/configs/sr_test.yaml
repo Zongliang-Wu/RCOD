@@ -1,0 +1,7 @@
+sf: 4
+
+validation:
+  lr_path: datasets/RealSR/test_LR/
+  gt_path: datasets/RealSR/test_HR/
+  io_backend:
+    type: disk

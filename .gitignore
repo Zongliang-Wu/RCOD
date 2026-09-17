@@ -1,0 +1,85 @@
+# ==============================================================================
+# Git Ignore Configuration for RCOD Repository
+# ==============================================================================
+
+# Byte-compiled / cache files
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Legacy and exploratory trial experiments (historical code)
+legacy_experiments/
+*/legacy_experiments/
+
+# Temporary and local editor files
+.lh/
+*/.lh/
+.vscode/
+*/.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Model weights and checkpoint artifacts (stored via releases / external links)
+*.pth
+*.pkl
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+weights/
+*/weights/
+
+# Training runs, experiment artifacts and evaluation outputs
+experience/
+experience2/
+experience_*/
+exp/
+output/
+outputs/
+results/
+runs/
+wandb/
+logs/
+*.log
+
+# Datasets and generated benchmark outputs
+preset/datasets/benchmark_*/results_*
+preset/datasets/test_dataset/output/
+preset/datasets/osediff_*
+data/
+dataset/
+datasets/
+
+# Previous paper visual assets (excluded from RCOD)
+assets/pic/
+*/assets/pic/
+
+# Large compressed files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Local developer notes
+ai_note.md
+
+# Local server scripts and absolute path configurations (private)
+*local*.sh
+*.local.*
+local_scripts/
+*/local_scripts/
+scripts/local/

@@ -1,0 +1,24 @@
+# Recommended Python 3.12 with CUDA 11.8 / PyTorch 2.4.0
+
+torch==2.4.0+cu118
+torchvision==0.19.0+cu118
+diffusers==0.25.0
+transformers==4.37.2
+accelerate==0.33.0
+peft==0.10.0
+xformers==0.0.27.post1+cu118
+pyiqa==0.1.11
+basicsr==1.4.2
+lpips==0.1.4
+timm==1.0.8
+einops==0.8.0
+omegaconf==2.3.0
+scipy==1.13.0
+numpy==1.26.3
+opencv-python==4.10.0.84
+Pillow==10.2.0
+tqdm==4.66.5
+PyYAML==6.0.1
+open-clip-torch==2.20.0
+openai-clip==1.0.1
+scikit-image==0.24.0

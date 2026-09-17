@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or method in your research, please cite our AAAI-26 paper as below."
+authors:
+  - family-names: "Wu"
+    given-names: "Zongliang"
+  - family-names: "Zheng"
+    given-names: "Siming"
+  - family-names: "Jiang"
+    given-names: "Peng-Tao"
+  - family-names: "Yuan"
+    given-names: "Xin"
+title: "Realism Control One-step Diffusion for Real-World Image Super-Resolution"
+version: 1.0.0
+date-released: 2026-02-01
+url: "https://zongliang-wu.github.io/RCOD-SR"
+repository-code: "https://github.com/Zongliang-Wu/RCOD"
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Wu"
+      given-names: "Zongliang"
+    - family-names: "Zheng"
+      given-names: "Siming"
+    - family-names: "Jiang"
+      given-names: "Peng-Tao"
+    - family-names: "Yuan"
+      given-names: "Xin"
+  title: "Realism Control One-step Diffusion for Real-World Image Super-Resolution"
+  collection-title: "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)"
+  year: 2026
